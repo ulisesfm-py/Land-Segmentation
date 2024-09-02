@@ -1,0 +1,12 @@
+Flask
+joblib
+tensorflow
+numpy==1.21.0
+seaborn==0.11.1
+matplotlib>=3.4
+scikit-learn
+pandas==1.2.4
+opencv-python
+colormap
+pillow
+glob2

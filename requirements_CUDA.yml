@@ -1,0 +1,24 @@
+name: land_app_CUDA
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python=3.10  # Compatible with TensorFlow 2.10 and 2.11
+  - flask
+  - joblib
+  - numpy
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - opencv
+  - colormap
+  - pillow
+  - cudatoolkit=11.2  # Compatible with TensorFlow 2.10+
+  - cudnn=8.1  # Compatible with CUDA 11.2
+  - tensorflow=2.10  # GPU version will be installed automatically
+  - pip
+  - pip:
+      - glob2
